@@ -125,7 +125,7 @@ export default function Page() {
                   Take a look at my recent projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've had the opportunity to work on a range of projects, from basic websites to intricate web applications. Here are some of the ones I'm most proud of.
+                  I&apos;ve had the opportunity to work on a range of projects, from basic websites to intricate web applications. Here are some of the ones I&apos;m most proud of.
                 </p>
               </div>
             </div>
@@ -173,8 +173,8 @@ export default function Page() {
                   aria-label={`Send email to ${DATA.contact.email}`}
                 >
                   Email
-                </a>{" "} me if you'd like to connect.
-                Send a direct question, and I'll reply as soon as I can. Please note, I do not respond to unsolicited messages.
+                </a>{" "} me if you&apos;d like to connect.
+                Send a direct question, and I&apos;ll reply as soon as I can. Please note, I do not respond to unsolicited messages.
               </p>
             </div>
           </BlurFade>
