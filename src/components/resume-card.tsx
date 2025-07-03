@@ -65,7 +65,7 @@ export const ResumeCard = ({
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (
-                  <span className="inline-flex gap-x-1 ml-2">
+                  <span className="md:inline-flex gap-x-1 ml-2 hidden">
                     {badges.map((badge, index) => (
                       <Badge
                         variant="secondary"
@@ -87,6 +87,15 @@ export const ResumeCard = ({
               <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
                 {period}
               </div>
+            </div>
+            <div className="md:hidden">
+              <span className="inline-flex">
+                {badges && badges.map((badge, index) => (
+                  <div className="text-xs text-muted-foreground font-medium" key={index}>
+                    {badge}
+                  </div>
+                ))}
+              </span>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>

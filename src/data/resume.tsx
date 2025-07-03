@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Bintang Rezeka Ramadani",
   initials: "ReXY",
-  url: "https://superrexy.my.id",
-  location: "Jakarta, Indonesia",
-  locationLink: "https://www.google.com/maps/place/jakarta",
+  url: "https://rexy.my.id",
+  location: "Ponorogo, Jawa Timur",
+  locationLink: "https://www.google.com/maps/place/Ponorogo",
   description:
-    "A Computer Engineering student at Politeknik Elektronika Negeri Surabaya, interested in Back-end and Mobile Development. They are pursuing bootcamps in these fields and have experience working in diverse product development teams.",
+    "Passionate Computer Engineering student at Politeknik Elektronika Negeri Surabaya with a focus on Back-end and Mobile Development. Currently enhancing skills through specialized bootcamps while contributing to cross-functional product development teams.",
   summary:
-    "A student from Politeknik Elektronika Negeri Surabaya majoring in Computer Engineering, with interests in Back-end Development and Mobile Development. They are eager to join bootcamps focused on Back-end and Mobile App Development and have hands-on experience working in diverse teams on product development.",
+    "Tech enthusiast and Computer Engineering student at Politeknik Elektronika Negeri Surabaya with proven expertise in Back-end and Mobile Development. Actively seeking growth opportunities through industry bootcamps while leveraging hands-on experience in collaborative product development environments.",
   avatarUrl: "https://cdn.rexy.my.id/public/me.png",
   skills: [
     "Laravel",
