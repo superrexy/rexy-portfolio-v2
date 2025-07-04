@@ -79,8 +79,7 @@ export const DATA = {
       logoUrl: "https://cdn.rexy.my.id/public/satsindo.png",
       start: "January 2025",
       end: "Present",
-      description:
-        `
+      description: `
 - Revamped company landing page using Laravel Inertia and React JS for frontend.\
 - Learned to build models for bottle inspection (perfume and oil bottles) using Computer Vision
 - Continued development of ERP, focusing on Expedition Management System features for PT. Sriwahana Adityakarya
@@ -88,7 +87,20 @@ export const DATA = {
 - Built a RAG-based Chatbot for the Tour & Travel industry, focusing on company profile explanation, product tours, and facilitating bookings via N8N automation.
 - Contributed to the development of SATSET ERP, integrating HRIS, WMS, and implementing RBAC (Role-Based Access Control) for improved system security and user management.
         `,
-      skills: ["Laravel", "React", "Next.js", "TailwindCSS", "Docker", "Django", "NestJS", "Python", "Computer Vision", "RAG", "N8N", "RBAC"],
+      skills: [
+        "Laravel",
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Docker",
+        "Django",
+        "NestJS",
+        "Python",
+        "Computer Vision",
+        "RAG",
+        "N8N",
+        "RBAC",
+      ],
     },
     {
       company: "Freelance",
@@ -99,8 +111,7 @@ export const DATA = {
       logoUrl: "https://cdn.rexy.my.id/public/me1.png",
       start: "August 2024",
       end: "December 2024",
-      description:
-        `
+      description: `
 - Added dynamic logo change feature on the landing page for Mega Jawa Transportindo
 - Performed UI slicing and API integration to create Admin Dashboard for ICS Seafood landing page
 - Built full-stack application for Live Streaming & Online Course Chat using NestJS, NextJS, and Livekit (WebRTC)
@@ -109,7 +120,17 @@ export const DATA = {
 - Continued development of ERP application (WMS & OMS) for PT. Sriwahana Adityakarya
 - Developed a document generation and project bulletin board app with chat and comment features for Biseka Mobile (construction company)
         `,
-      skills: ["Laravel", "NestJS", "Next.js", "TailwindCSS", "Docker", "Flutter", "Nuxt.js", "Django", "Golang"],
+      skills: [
+        "Laravel",
+        "NestJS",
+        "Next.js",
+        "TailwindCSS",
+        "Docker",
+        "Flutter",
+        "Nuxt.js",
+        "Django",
+        "Golang",
+      ],
     },
     {
       company: "Suitmedia Digital Agency",
@@ -120,8 +141,7 @@ export const DATA = {
       logoUrl: "https://cdn.rexy.my.id/public/suitmedia.png",
       start: "January 2024",
       end: "March 2024",
-      description:
-        `
+      description: `
 - Utilized Suitcore Flutter 3.0 boilerplate with GetX for state management
 - Implemented Analytics on each menu to monitor User Experience
 - Debugged and fixed application bugs on both Android and iOS platforms
@@ -130,7 +150,15 @@ export const DATA = {
 - Performed UI slicing and integration using Rest API
 - Integrated Jitsi Library for teleconference functionality in a healthcare app
         `,
-      skills: ["Flutter", "GetX", "Jitsi", "Rest API", "UI Slicing", "Analytics", "Deployment Playstore & Appstore"],
+      skills: [
+        "Flutter",
+        "GetX",
+        "Jitsi",
+        "Rest API",
+        "UI Slicing",
+        "Analytics",
+        "Deployment Playstore & Appstore",
+      ],
     },
     {
       company: "PT Webcare Digital Indonesia",
@@ -141,15 +169,14 @@ export const DATA = {
       logoUrl: "https://cdn.rexy.my.id/public/webcare.png",
       start: "January 2023",
       end: "June 2023",
-      description:
-        `
+      description: `
 - Developed services with Laravel framework for frontend consumption in an online course app for aspiring pilots
 - Utilized Flutter 3.0 with GetX state management for mobile app development
 - Performed UI slicing for tablet and mobile devices for a construction app, integrating data via Restful API
 - Built a full-stack employee attendance app using framework NestJS and React Native
         `,
-      skills: ["Laravel", "NestJS", "React Native", "Flutter", "Restful API",],
-    }
+      skills: ["Laravel", "NestJS", "React Native", "Flutter", "Restful API"],
+    },
   ],
   education: [
     {
@@ -167,7 +194,7 @@ export const DATA = {
       logoUrl: "https://cdn.rexy.my.id/public/smktelkom.png",
       start: "2017",
       end: "2020",
-    }
+    },
   ],
   projects: [
     {
@@ -184,7 +211,7 @@ export const DATA = {
         "Payment Gateway",
         "PostgreSQL",
         "CI / CD",
-        "Docker"
+        "Docker",
       ],
       links: [
         // {
@@ -195,29 +222,26 @@ export const DATA = {
       ],
       image: "https://cdn.rexy.my.id/public/sakinahmart.png",
       video: "",
-      role: "Fullstack Developer"
+      role: "Fullstack Developer",
     },
     {
       title: "EMDoctors by EMC Healthcare",
       href: "https://emc.co.id",
       active: true,
-      description: "EMDoctor is a cutting-edge mobile solution designed for EMC Healthcare doctors, providing seamless management and execution of patient consultations anytime, anywhere. Key features include a 'Today’s Schedule' that lists doctor appointments, a 'Doctor's Calendar' to review and plan appointments, and 'Consultation Schedule Notifications' to ensure doctors are always on time for every session.",
-      technologies: [
-        "Flutter",
-        "GetX",
-        "Jitsi",
-        "Rest API"
-      ],
+      description:
+        "EMDoctor is a cutting-edge mobile solution designed for EMC Healthcare doctors, providing seamless management and execution of patient consultations anytime, anywhere. Key features include a 'Today’s Schedule' that lists doctor appointments, a 'Doctor's Calendar' to review and plan appointments, and 'Consultation Schedule Notifications' to ensure doctors are always on time for every session.",
+      technologies: ["Flutter", "GetX", "Jitsi", "Rest API"],
       links: [],
       image: "https://cdn.rexy.my.id/public/emc.png",
       video: "",
-      role: "Mobile Developer"
+      role: "Mobile Developer",
     },
     {
       title: "PENS Online Classroom",
       href: "https://pens.ac.id",
       active: true,
-      description: "PENS Online Classroom expands access to education with flexible, live-streamed courses and a scalable, efficient platform. This innovation enhances PENS' reputation and appeal, offering a modern, accessible learning experience.",
+      description:
+        "PENS Online Classroom expands access to education with flexible, live-streamed courses and a scalable, efficient platform. This innovation enhances PENS' reputation and appeal, offering a modern, accessible learning experience.",
       technologies: [
         "NestJS",
         "NextJS",
@@ -230,13 +254,14 @@ export const DATA = {
       links: [],
       image: "https://cdn.rexy.my.id/public/pens-online-course.png",
       video: "",
-      role: "Fullstack Developer"
+      role: "Fullstack Developer",
     },
     {
       title: "Pawang (Pengatur Keuangan)",
       href: "https://pens.ac.id",
       active: true,
-      description: "Pawang is a financial recording application that simplifies expense management through an innovative receipt scanning feature.",
+      description:
+        "Pawang is a financial recording application that simplifies expense management through an innovative receipt scanning feature.",
       technologies: [
         "ExpressJS",
         "Flutter",
@@ -245,104 +270,100 @@ export const DATA = {
         "Docker",
         "CI / CD",
       ],
-      links: [],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/pawangdev",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "https://cdn.rexy.my.id/public/pawang.png",
       video: "",
-      role: "Fullstack Developer"
+      role: "Fullstack Developer",
     },
     {
       title: "Biseka Mobile",
       href: "https://biseka.id",
       active: true,
-      description: "Biseka Mobile, created by Biseka Synergy, is a revolutionary app for the construction industry. Launched in 2020, it blends 20 years of expertise with innovative technology to elevate Indonesia's global standing. The app streamlines construction processes, boosts efficiency, and simplifies project management. Discover the future of construction with Biseka Mobile.",
-      technologies: [
-        "Flutter",
-        "Laravel"
-      ],
+      description:
+        "Biseka Mobile, created by Biseka Synergy, is a revolutionary app for the construction industry. Launched in 2020, it blends 20 years of expertise with innovative technology to elevate Indonesia's global standing. The app streamlines construction processes, boosts efficiency, and simplifies project management. Discover the future of construction with Biseka Mobile.",
+      technologies: ["Flutter", "Laravel"],
       links: [],
       image: "https://cdn.rexy.my.id/public/biseka-v1.png",
       video: "",
-      role: "Mobile Developer"
+      role: "Mobile Developer",
     },
     {
       title: "Biseka Mobile Mading Info",
       href: "https://biseka.id",
       active: true,
-      description: "Biseka Mobile Mading Info is a cutting-edge app designed to streamline project tracking and management. This app simplifies task allocation, tracks progress in real time, and ensures seamless communication among teams. Experience the future of project management with Project Info Dashboard.",
-      technologies: [
-        "Flutter",
-        "Laravel"
-      ],
+      description:
+        "Biseka Mobile Mading Info is a cutting-edge app designed to streamline project tracking and management. This app simplifies task allocation, tracks progress in real time, and ensures seamless communication among teams. Experience the future of project management with Project Info Dashboard.",
+      technologies: ["Flutter", "Laravel"],
       links: [],
       image: "https://cdn.rexy.my.id/public/biseka-v2.png",
       video: "",
-      role: "Mobile Developer"
+      role: "Mobile Developer",
     },
     {
       title: "Sriwahana ERP",
-      href: "https://biseka.id",
+      href: "https://sriwahana.id",
       active: true,
-      description: "Sriwahana ERP Warehouse Management System, developed by PT. Satya Solusindo Indonesia, optimizes warehouse operations through real-time inventory control and material flow monitoring. As part of the Manufacturing Execution System, it streamlines operations across various categories, including spare parts, raw materials, finished goods, and rejected products, with an intuitive interface for improved efficiency.",
-      technologies: [
-        "Django",
-        "CI / CD"
-      ],
+      description:
+        "Sriwahana ERP Warehouse Management System, developed by PT. Satya Solusindo Indonesia, optimizes warehouse operations through real-time inventory control and material flow monitoring. As part of the Manufacturing Execution System, it streamlines operations across various categories, including spare parts, raw materials, finished goods, and rejected products, with an intuitive interface for improved efficiency.",
+      technologies: ["Django", "CI / CD"],
       links: [],
       image: "",
-      video:
-        "https://cdn.rexy.my.id/public/sriwahana-erp.webm",
-      role: "Backend Developer"
+      video: "https://cdn.rexy.my.id/public/sriwahana-erp.webm",
+      role: "Backend Developer",
     },
     {
       title: "Satsindo Solution Enterprise ERP",
       href: "https://satsindo.com",
       active: true,
-      description: "SATSET Satsindo Solution Enterprise (ERP), developed by PT. Satya Solusindo Indonesia, is a comprehensive enterprise resource planning system designed to streamline business operations. The platform provides features for employee management, announcements, holiday schedules, and employee surveys.",
-      technologies: [
-        "NestJS",
-        "NuxtJS",
-        "RAG",
-        "N8N",
-      ],
+      description:
+        "SATSET Satsindo Solution Enterprise (ERP), developed by PT. Satya Solusindo Indonesia, is a comprehensive enterprise resource planning system designed to streamline business operations. The platform provides features for employee management, announcements, holiday schedules, and employee surveys.",
+      technologies: ["NestJS", "NuxtJS", "RAG", "N8N"],
       links: [],
       image: "",
-      video:
-        "https://cdn.rexy.my.id/public/satset-erp.webm",
-      role: "Fullstack Developer"
+      video: "https://cdn.rexy.my.id/public/satset-erp.webm",
+      role: "Fullstack Developer",
     },
     {
       title: "Satsindo Company Profile",
       href: "https://satsindo.com",
       active: true,
-      description: "Satsindo Company Profile, introduces the company’s industrial automation engineering solutions.It features their services in Robotic Solutions, Special Purpose Machines, and PLC - HMI - DCS - SCADA systems. The landing page also highlights Smart Vision Solutions, MES & ERP Software Development, and Maintenance Service Contracts, showcasing the company’s diverse capabilities to optimize industrial processes.",
-      technologies: [
-        "Laravel",
-        "Inertia",
-        "React",
-        "TailwindCSS"
+      description:
+        "Satsindo Company Profile, introduces the company’s industrial automation engineering solutions.It features their services in Robotic Solutions, Special Purpose Machines, and PLC - HMI - DCS - SCADA systems. The landing page also highlights Smart Vision Solutions, MES & ERP Software Development, and Maintenance Service Contracts, showcasing the company’s diverse capabilities to optimize industrial processes.",
+      technologies: ["Laravel", "Inertia", "React", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://satsindo.com",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      links: [],
       image: "",
-      video:
-        "https://cdn.rexy.my.id/public/satsindo-company-profile.webm",
-      role: "Fullstack Developer"
+      video: "https://cdn.rexy.my.id/public/satsindo-company-profile.webm",
+      role: "Fullstack Developer",
     },
     {
       title: "Travent Company Profile",
       href: "https://travent.id",
       active: true,
-      description: "Travent Company Profile, developed by PT. Satya Solusindo Indonesia, offers comprehensive travel and event services, including tour packages, flight tickets, car rentals, and hotel bookings. The site features a gallery of destinations and a custom RAG chatbot for quick, personalized customer support.",
-      technologies: [
-        "NestJS",
-        "NuxtJS",
-        "RAG",
-        "N8N",
+      description:
+        "Travent Company Profile, developed by PT. Satya Solusindo Indonesia, offers comprehensive travel and event services, including tour packages, flight tickets, car rentals, and hotel bookings. The site features a gallery of destinations and a custom RAG chatbot for quick, personalized customer support.",
+      technologies: ["NestJS", "NuxtJS", "RAG", "N8N"],
+      links: [
+        {
+          type: "Website",
+          href: "https://travent.id",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      links: [],
       image: "",
-      video:
-        "https://cdn.rexy.my.id/public/travent-company-profile.webm",
-      role: "Fullstack Developer"
+      video: "https://cdn.rexy.my.id/public/travent-company-profile.webm",
+      role: "Fullstack Developer",
     },
   ],
 } as const;
